@@ -16,7 +16,6 @@ Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{module}/
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{modprefix}/%{module}-%{version}.tar.bz2
 BuildRequires:	perl-devel
-Buildroot:	%{_tmppath}/%{name}-root
 
 %description
 PadWalker is a module which allows you to inspect (and even change!) lexical

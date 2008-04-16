@@ -3,9 +3,9 @@
 
 %define	name		perl-%{module}
 
-%define	version	1.5
+%define	version	1.6
 
-%define	release	%mkrel 2
+%define	release	%mkrel 1
 
 Summary:	Play with other peoples' lexical variables
 Name:		%{name}

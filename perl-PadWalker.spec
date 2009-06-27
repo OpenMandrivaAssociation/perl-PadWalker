@@ -2,9 +2,9 @@
 %define	modprefix	PadWalker
 %define	name		perl-%{module}
 
-%define	version	1.7
+%define	version	1.9
 
-%define	release	%mkrel 2
+%define	release	%mkrel 1
 
 Name:		%{name}
 Version:	%{version}

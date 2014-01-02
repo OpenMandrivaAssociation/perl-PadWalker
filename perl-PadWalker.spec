@@ -1,14 +1,14 @@
 %define	modname	PadWalker
-%define modver	1.92
+%define modver 1.96
 
 Summary:	Play with other peoples' lexical variables
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	8
+Release:	1
 License:	Artistic/GPLv2
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}/
-Source0:	http://search.cpan.org/CPAN/authors/id/R/RO/ROBIN/%{modname}-%{modver}.tar.gz
+Source0:	http://www.cpan.org/authors/id/R/RO/ROBIN/PadWalker-%{modver}.tar.gz
 BuildRequires:	perl-devel
 
 %description
@@ -34,4 +34,5 @@ which are in scope at the point of the call.
 %{perl_vendorarch}/PadWalker.pm
 %{perl_vendorarch}/auto/PadWalker
 %{_mandir}/man3/*
+
 

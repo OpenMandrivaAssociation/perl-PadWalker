@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 4
+Release:    5
 
 Summary:	Play with other peoples' lexical variables
 License:	Artistic/GPL

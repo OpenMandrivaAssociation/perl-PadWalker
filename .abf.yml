@@ -1,6 +1,2 @@
-removed_sources:
-  PadWalker-1.92.tar.gz: 5f1250a7e619c232463f506d36a27a66a9bb6497
-  PadWalker-1.96.tar.gz: 575b34adf54879e1306afeff20ad2af8c68402a4
-  PadWalker-1.98.tar.gz: 7657ffb1a6209e8eb922572d3f78c8328e5ec2b1
 sources:
-  PadWalker-2.0.tar.gz: 0480bbce6b2aaaf2d4ee517aecd920ca2972d880
+  PadWalker-2.3.tar.gz: 00b96001525326b2c00257cebff013f3555ebb8f

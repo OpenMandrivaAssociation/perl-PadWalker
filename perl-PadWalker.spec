@@ -4,7 +4,7 @@
 Summary:	Play with other peoples' lexical variables
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	5
+Release:	6
 License:	Artistic/GPLv2
 Group:		Development/Perl
 Url:		http://metacpan.org/pod/PadWalker

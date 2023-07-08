@@ -1,10 +1,11 @@
 %define	modname	PadWalker
 %define modver 2.3
+%undefine _debugsource_packages
 
 Summary:	Play with other peoples' lexical variables
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	6
+Release:	7
 License:	Artistic/GPLv2
 Group:		Development/Perl
 Url:		http://metacpan.org/pod/PadWalker

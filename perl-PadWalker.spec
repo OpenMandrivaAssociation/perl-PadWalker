@@ -8,7 +8,7 @@ Version:	%perl_convert_version %{modver}
 Release:	7
 License:	Artistic/GPLv2
 Group:		Development/Perl
-Url:		http://metacpan.org/pod/PadWalker
+Url:		https://metacpan.org/pod/PadWalker
 Source0:	https://cpan.metacpan.org/authors/id/R/RO/ROBIN/PadWalker-%{modver}.tar.gz
 BuildRequires:	perl-devel
 BuildRequires:	perl(Test)

@@ -1,15 +1,13 @@
 %define	modname	PadWalker
-%define modver 2.3
-%undefine _debugsource_packages
 
 Summary:	Play with other peoples' lexical variables
 Name:		perl-%{modname}
-Version:	%perl_convert_version %{modver}
-Release:	7
+Version:	2.5
+Release:	1
 License:	Artistic/GPLv2
 Group:		Development/Perl
 Url:		https://metacpan.org/pod/PadWalker
-Source0:	https://cpan.metacpan.org/authors/id/R/RO/ROBIN/PadWalker-%{modver}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/R/RO/ROBIN/PadWalker-%{version}.tar.gz
 BuildRequires:	perl-devel
 BuildRequires:	perl(Test)
 BuildRequires:	perl(Test::More)
@@ -20,17 +18,17 @@ variables in any subroutine which called you. It will only show those variables
 which are in scope at the point of the call.
 
 %prep
-%setup -qn %{modname}-%{modver}
+%autosetup -p1 -n %{modname}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
-%make CFLAGS="%{optflags}"
+%make_build CFLAGS="%{optflags}"
 
 %check
 %make test
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %doc README Changes

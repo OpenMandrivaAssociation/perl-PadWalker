@@ -3,7 +3,7 @@
 Summary:	Play with other peoples' lexical variables
 Name:		perl-%{modname}
 Version:	2.5
-Release:	1
+Release:	2
 License:	Artistic/GPLv2
 Group:		Development/Perl
 Url:		https://metacpan.org/pod/PadWalker

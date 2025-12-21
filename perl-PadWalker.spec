@@ -8,6 +8,7 @@ License:	Artistic/GPLv2
 Group:		Development/Perl
 Url:		https://metacpan.org/pod/PadWalker
 Source0:	https://cpan.metacpan.org/authors/id/R/RO/ROBIN/PadWalker-%{version}.tar.gz
+BuildRequires:	make
 BuildRequires:	perl-devel
 BuildRequires:	perl(Test)
 BuildRequires:	perl(Test::More)
